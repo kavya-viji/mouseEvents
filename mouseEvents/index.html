@@ -1,0 +1,58 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Mouse Event</title>
+	
+	<script type="text/javascript">
+		
+	function loadme()
+		{
+			alert ("The page is loaded")
+		}	
+	function unloadme()
+		{
+			alert ("The page is unloaded")
+		}	
+		
+	function resizeme()
+		{
+			alert ("The page is Resized")
+		}	
+	function clickme()
+		{
+			alert ("The mouse is clicked")
+		}	
+	function dblclickme()
+		{
+			alert ("The mouse is double clicked")
+		}	
+	function mouseoverme()
+		{
+			alert ("The mouse is over the div")
+		}	
+	function mousedownme()
+		{
+			alert ("The mouse button is down")
+		}	
+	function mouseupme()
+		{
+			alert ("The mouse button is up")
+		}	
+	function mouseoutme()
+		{
+			alert ("The mouse button is out")
+		}	
+
+</script>		
+</head>
+<body		onload = "loadme()" onunload = "unloadme()" onresize = "resizeme()">
+	
+	<div style="background-color:red; height:120px; width:220px" onClick = "clickme()"><h3>ONCLICK EVENT</h3></div><br>
+	<div style="background-color:blue; height:120px; width:220px" ondblClick = "dblclickme()"><h3>DOUBLE CLICK EVENT</h3></div><br>
+	<div style="background-color:pink; height:120px; width:220px" onmouseOver = "mouseoverme()"><h3>MOUSE OVER EVENT</h3></div><br>
+	<div style="background-color:green; height:120px; width:220px" onmouseDown = "mousedownme()"><h3>MOUSE DOWN EVENT</h3></div><br>
+	<div style="background-color:violet; height:120px; width:220px" onmouseUp = "mouseupme()"><h3>MOUSE UP EVENT</h3></div><br>
+	<div style="background-color:lavender; height:120px; width:220px" onmouseOut = "mouseoutme()"><h3>MOUSE OUT EVENT</h3></div><br>
+
+</body>
+		</html>
